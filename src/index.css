@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content {
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: calc(100vh - 59px);
+  height: 100%;
+}
+
+.header {
+  padding: 10px;
+  background: #708fa0;
+  border-bottom: 1px solid #999;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.header a:hover {
+  color: #8a0f53;
+}
+.header small {
+  color: #666;
+}
+.header .active {
+  color: #ffffff;
+}
+
+.login-page {
+  width: 400px;
+}
+
+.btn.btn-login {
+  background: #708fa0;
+}
+
+.btn.btn-primary.btn-login:hover {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #0062cc;
+}
+
+.button-go-to {
+  color: #666;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+div.required > label:after {
+  content: " *";
+  color: #6fdbe8;
+}
+
+.w-600 {
+  width: 600px;
+}
+
+.profile-container {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 700px;
+}
+
+.tab-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.invalid {
+  color: red;
+}
+
+.form-control.invalid-border {
+  border-color: red;
+}
+
+.panel {
+  width: 700px;
+}
+.panel-default {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn.btn-success {
+  background-color: #97d271;
+  border-color: #ffffff;
+  font-size: 14px;
+}
+
+.btn.btn-success:hover {
+  background-color: #97d271;
+}
+
+.help-block {
+  color: #aeaeae;
+  font-size: 12px;
+}
+
+::placeholder {
+  color: #bebebe !important;
+  font-size: 14px;
+}
+
+table.table th {
+  font-size: 13px;
+  color: #555;
+  font-weight: 700;
+  border-top: none;
+}
+
+table.table thead th {
+  border-bottom: 1px solid #dee2e6;
+}
+
+table.table td {
+  font-size: 13px;
+  color: #777;
+  vertical-align: middle;
+}
+
+.input-group-prepend i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  cursor: pointer;
+}
+
+.input-group-text {
+  height: 38px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.input-group {
+  display: block;
+}
+
+.dropdown-menu a {
+  color: #555;
+  margin: 0px;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.dropdown .btn:focus {
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+}
+
+.dropdown .btn:hover {
+  color: #8a0f53;
+}
+
+.btn.btn-settings {
+  color: #ffffff;
+}
+
+.btn.btn-default {
+  background: #ededed;
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+.dropdown-menu.dropdown-navigation,
+.dropdown-navigation .dropdown-item:active {
+  background-color: #708fa0;
+}
+
+.dropdown-navigation a {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.dropdown-navigation i {
+  width: 20px;
+  color: #ffffff;
+}
+
+.dropdown-navigation .dropdown-item:hover i {
+  color: #8a0f53;
+}
+
+.dropdown-menu.dropdown-navigation {
+  top: 10px !important;
+}
+
+.dropdown-cog-right {
+  left: auto !important;
+  right: 0px !important;
+}

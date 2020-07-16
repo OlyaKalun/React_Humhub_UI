@@ -1,0 +1,7 @@
+export const REQUEST_SIGN_IN = "REQUEST_SIGN_IN";
+export const RECEIVE_SIGN_IN = "RECEIVE_SIGN_IN";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const SERVER_ERROR = "SERVER_ERROR";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const REQUEST_SIGN_UP = "REQUEST_SIGN_UP";
+export const CLEAR_TOKEN = "CLEAR_TOKEN";
